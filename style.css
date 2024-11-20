@@ -1,0 +1,59 @@
+#main-category table {
+    margin: 0 auto; /* Tabloyu merkeze hizala */
+    border-collapse: collapse; /* Hücre sınırlarını birleştir */
+    background-color: black; /* Arka plan rengi */
+    color: white; /* Yazı rengi */
+    width: 100%; /* Tabloyu tam genişlik yap */
+    height: 75px;
+}
+
+#main-category td {
+    text-align: center; /* Hücre içeriğini ortala */
+    padding: 10px; /* Hücre içi boşluk */
+
+}
+
+#main-category td img {
+    border-radius: 5px; /* Köşeleri yuvarla */
+}
+
+#main-category input[type="text"] {
+    width: 100%; /* Metin kutusunun genişliği */
+    padding: 5px; /* İç boşluk */
+    border-radius: 5px; /* Köşeleri yuvarla */
+    border: 1px solid white; /* Beyaz kenarlık */
+    color: black; /* Yazı rengi */
+    
+}
+.rounded {
+    border-radius: 15px; /* Köşe yuvarlama değeri */
+}
+.rounded-input {
+    width: 250px; /* Genişlik */
+    height: 10px; /* Yükseklik */
+    padding: 10px; /* İç boşluk */
+    font-size: 16px; /* Metin boyutu */
+    border-radius: 15px; /* Köşe yuvarlama */
+    padding-left: 40px; /* Sol boşluk (ikon için) */
+    border: 1px solid #ccc; /* Kenarlık */
+    border-radius: 20px; /* Köşeleri yuvarlat */
+    background-image: url('https://cdn-icons-png.flaticon.com/512/54/54481.png'); /* Arama ikonu */
+    background-size: 20px 20px; /* İkon boyutu */
+    background-repeat: no-repeat; /* İkonu tekrar etme */
+    background-position: 10px center; /* İkonun konumu */
+}
+.vertical-line-left {
+    position: fixed;
+    width: 20px;
+    background-color: black;
+    height: 100vh;
+}
+.vertical-line-right {
+    position: fixed;
+    width: 20px;
+    background-color: black;
+    height: 100vh;
+    top: 100px;
+    right: 8px;
+    
+}
